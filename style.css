@@ -1,0 +1,76 @@
+ body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #fdfdfd;
+    }
+    .navbar {
+      background-color: #000;
+    }
+    .navbar a {
+      color: #FFD700 !important;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") no-repeat center center/cover;
+      color: #fff;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #FFD700;
+    }
+    .section-title {
+      color: #FFD700;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .services .card {
+      border: none;
+      background: #111;
+      color: #fff;
+      transition: transform 0.3s ease;
+    }
+    .services .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .services h5 {
+      color: #FFD700;
+    }
+    footer {
+      background-color: #000;
+      color: #FFD700;
+      padding: 20px 0;
+      text-align: center;
+    }
+    /* زر واتساب عائم */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-decoration: none;
+    }
+    /* معرض الصور */
+    .gallery img {
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
